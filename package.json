@@ -1,0 +1,29 @@
+{
+  "name": "juicyjuice",
+  "version": "0.0.1",
+  "description": "CSS style inlining with Juice",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf inst/dist && browserify js_src/client.js -o inst/dist/bundle.js --standalone juice"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rich-iannone/juicyjuice.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "inline"
+  ],
+  "author": "Richard Iannone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rich-iannone/juicyjuice/issues"
+  },
+  "homepage": "https://github.com/rich-iannone/juicyjuice#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2"
+  }
+}
