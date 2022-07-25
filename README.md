@@ -1,3 +1,27 @@
 # juicyjuice
 
-CSS style inlining with Juice
+With the **juicyjuice** package it’s fairly easy to transform HTML such that all CSS is inlined directly into HTML tags.
+
+So this:
+
+`<style>div{color:blue;}</style><div/>`
+
+Will turn to this:
+
+`<div style="color: blue;"></div>`
+
+Why do this? An important use case is HTML email and this is mainly because of Outlook on Windows (it does not support multiple classes on elements). Furthermore CSS inlining can help preserve a decent layout in email clients that do not support embedded CSS (in `<style>` tags), or, when an email is forwarded. Here's another reason to use this: embedding HTML in 3rd-party websites. 
+
+This **R** package contains a single function, `css_inline()`, where the only input required is a string of HTML text. It uses the **juice** JavaScript library, which is (1) well-tested, (2) very performant, and (3) has lots of great features. The aformentioned function will return a string of CSS-inlined HTML.
+
+## Code of Conduct
+
+Please note that the juicyjuice project is released with a [contributor code of conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>By participating in this project you agree to abide by its terms.
+
+## 📄 License
+
+**juicyjuice** is licensed under the MIT license. See the [`LICENSE.md`](LICENSE.md) file for more details.
+
+## 🏛️ Governance
+
+This project is primarily maintained by [Rich Iannone](https://twitter.com/riannone). Should there also be other authors, they might occasionally assist with some of these duties.
