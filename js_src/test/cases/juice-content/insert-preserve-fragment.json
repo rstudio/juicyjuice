@@ -1,6 +1,0 @@
-{
-    "preserveFontFaces": true,
-    "preserveMediaQueries": true,
-    "insertPreservedExtraCss": "div",
-    "extraCss": "@font-face { font-family: 'Extra'; }"
-}
