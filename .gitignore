@@ -33,6 +33,9 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 
+# Node modules
+node_modules
+
 # docs in `inst`
 inst/doc
 
