@@ -1,0 +1,7 @@
+^LICENSE\.md$
+^js_src$
+^node_modules$
+^package.json$
+^package-lock.json$
+^.*\.Rproj$
+^\.Rproj\.user$
