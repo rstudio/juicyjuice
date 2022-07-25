@@ -1,0 +1,28 @@
+<html>
+<head>
+
+</head>
+<body>
+    <p style="width: 200px;">none</p>
+    <table>
+        <tr>
+            <th class="px" style="width: 200px;" width="200">
+                header 1
+            </th>
+            <th class="percentage" style="width: 50%;" width="50%">
+                header 2
+            </th>
+        </tr>
+        <tr>
+            <td class="px" style="width: 200px;" width="200">
+                wide
+            </td>
+            <td class="percentage" style="width: 50%;" width="50%">
+                wide
+            </td>
+        </tr>
+    </table>
+    <img src="#" alt="wide" class="px" style="width: 200px;" width="200">
+    <img src="#" alt="wide" class="percentage" style="width: 50%;">
+</body>
+</html>
