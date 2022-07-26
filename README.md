@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href='https://rich-iannone.github.io/juicyjuice/'><img src="man/figures/logo.svg" height="350px"/></a>
+<a href='https://rich-iannone.github.io/juicyjuice/'><img src="man/figures/logo.png" height="350px"/></a>
 
 <br />
 <!-- badges: start -->
