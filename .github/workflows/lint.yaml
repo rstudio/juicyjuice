@@ -4,7 +4,7 @@ name: lint
 
 jobs:
   lint:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     
     env:
       GITHUB_PAT: ${{ secrets.GHA_PAT }}
@@ -26,22 +26,17 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ${{ env.R_LIBS_USER }}
-          key: ubuntu-r-4.1-4-${{ hashFiles('.github/depends.Rds') }}
-          restore-keys: ubuntu-r-4.1-4-
+          key: ubuntu-r-4.2-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ubuntu-r-4.2-1-
           
-      - name: Install system dependencies
-        if: runner.os == 'Linux'
-        env:
-          RHUB_PLATFORM: linux-x86_64-ubuntu-gcc
-        run: |
-          Rscript -e "remotes::install_github('r-hub/sysreqs')"
-          sysreqs=$(Rscript -e "cat(sysreqs::sysreq_commands('DESCRIPTION'))")
-          sudo -s eval "$sysreqs"
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: any::rcmdcheck
+          needs: check
 
       - name: Install dependencies
         run: |
-          install.packages(c("remotes"))
-          remotes::install_deps(dependencies = TRUE)
+          install.packages("remotes")
           remotes::install_cran("lintr")
         shell: Rscript {0}
 
