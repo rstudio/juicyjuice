@@ -1,4 +1,16 @@
-# juicyjuice
+<div align="center">
+
+<a href='https://rich-iannone.github.io/juicyjuice/'><img src="man/figures/logo.svg" height="350px"/></a>
+
+<br />
+<!-- badges: start -->
+<a href="https://github.com/rich-iannone/juicyjuice/actions"><img src="https://github.com/rich-iannone/juicyjuice/workflows/R-CMD-check/badge.svg" alt="R build status" /></a>
+<a href="https://github.com/rich-iannone/juicyjuice/actions"><img src="https://github.com/rich-iannone/juicyjuice/workflows/lint/badge.svg" alt="Linting" /></a>
+
+<a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Contributor Covenant" /></a>
+<!-- badges: end -->
+<br />
+</div>
 
 With the **juicyjuice** package it’s fairly easy to transform HTML such that all CSS is inlined directly into HTML tags.
 
