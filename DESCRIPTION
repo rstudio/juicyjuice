@@ -7,14 +7,14 @@ Authors@R: c(
     person("Automattic", role = c("cph"), comment = "juice library"),
     person("juice contributors", role = c("ctb"), comment = "juice library")
     )
-Description: There are occasions where you need a piece of HTML with inlined
-    styles. A prime example of this is HTML email. By inlining styles you are
-    essentially moving the CSS and associated formatting instructions from the
+Description: There are occasions where you need a piece of HTML with integrated
+    styles. A prime example of this is HTML email. This transformation
+    involves moving the CSS and associated formatting instructions from the
     style block in the head of your document into the body of the HTML. Many
-    prominent email clients require inlined styles in HTML email; otherwise a
+    prominent email clients require integrated styles in HTML email; otherwise a
     received HTML email will be displayed without any styling. This package will
-    quickly and precisely perform CSS inlining when given HTML text by making
-    use of the JavaScript 'juice' library.
+    quickly and precisely perform these CSS transformations when given HTML text
+    and it does so by using the JavaScript 'juice' library.
 License: MIT + file LICENSE
 URL: https://github.com/rich-iannone/juicyjuice
 BugReports: https://github.com/rich-iannone/juicyjuice/issues
