@@ -24,7 +24,7 @@ Will turn to this:
 
 Why do this? An important use case is HTML email and this is mainly because of Outlook on Windows (it does not support multiple classes on elements). Furthermore CSS inlining can help preserve a decent layout in email clients that do not support embedded CSS (in `<style>` tags), or, when an email is forwarded. Here's another reason to use this: embedding HTML in 3rd-party websites. 
 
-This **R** package contains a single function, `css_inline()`, where the only input required is a string of HTML text. It uses the **juice** JavaScript library, which is (1) well-tested, (2) very performant, and (3) has lots of great features. The aformentioned function will return a string of CSS-inlined HTML.
+This **R** package contains a single function, `css_inline()`, where the only input required is a string of HTML text. It uses the **juice** JavaScript library (https://github.com/Automattic/juice), which is (1) well-tested, (2) very performant, and (3) has lots of great features. The aformentioned function will return a string of CSS-inlined HTML.
 
 ## Code of Conduct
 
