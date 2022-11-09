@@ -10,9 +10,16 @@ css_inline(html)
 \item{html}{HTML provided as a string.}
 }
 \value{
-A character vector of length one which contains HTML text.
+A character vector of length one which contains the transformed HTML
+text.
 }
 \description{
 Given an HTML string, the \code{css_inline()} function will render that into HTML
 with CSS inlined into the \code{style} attribute of HTML tags.
+}
+\examples{
+
+# Take an HTML string and inline the CSS into the tags
+css_inline(html = "<style>div{color:blue;}</style><div/>")
+
 }
