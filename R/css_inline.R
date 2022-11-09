@@ -4,8 +4,14 @@
 #' with CSS inlined into the `style` attribute of HTML tags.
 #' 
 #' @param html HTML provided as a string.
+#'
+#' @return A character vector of length one which contains the transformed HTML
+#'   text.
 #' 
-#' @return A character vector of length one which contains HTML text.
+#' @examples 
+#' 
+#' # Take an HTML string and inline the CSS into the tags
+#' css_inline(html = "<style>div{color:blue;}</style><div/>")
 #' 
 #' @export 
 css_inline <- function(html) {
