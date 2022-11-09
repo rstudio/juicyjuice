@@ -1,9 +1,12 @@
 Package: juicyjuice
 Title: Inline CSS Properties into HTML Tags Using 'juice' 
 Version: 0.1.0
-Authors@R: 
+Authors@R: c(
     person("Richard", "Iannone", , "riannone@me.com", c("aut", "cre"),
-           comment = c(ORCID = "0000-0003-3925-190X"))
+           comment = c(ORCID = "0000-0003-3925-190X")),
+    person("Automattic", role = c("cph"), comment = "juice library"),
+    person("juice contributors", role = c("ctb"), comment = "juice library")
+    )
 Description: There are occasions where you need a piece of HTML with inlined
     styles. A prime example of this is HTML email. By inlining styles you are
     essentially moving the CSS and associated formatting instructions from the
