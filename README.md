@@ -1,14 +1,19 @@
 <div align="center">
 
-<a href='https://rich-iannone.github.io/juicyjuice/'><img src="man/figures/logo.png" height="350px"/></a>
-
-<br />
+<hr style="color:transparent" />
+<a href='https://rich-iannone.github.io/juicyjuice/'><img src="man/figures/logo.png" width="350px"/></a>
+<hr style="color:transparent"/>
 <!-- badges: start -->
+<a href="https://cran.r-project.org/package=juicyjuice"><img src="https://www.r-pkg.org/badges/version/juicyjuice" alt="CRAN status" /></a>
 <a href="https://github.com/rich-iannone/juicyjuice/actions"><img src="https://github.com/rich-iannone/juicyjuice/workflows/R-CMD-check/badge.svg" alt="R build status" /></a>
 <a href="https://github.com/rich-iannone/juicyjuice/actions"><img src="https://github.com/rich-iannone/juicyjuice/workflows/lint/badge.svg" alt="Linting" /></a>
 
+<a href="https://CRAN.R-project.org/package=juicyjuice"><img src="https://cranlogs.r-pkg.org/badges/juicyjuice" alt="Monthly Downloads"></a>
+<a href="https://CRAN.R-project.org/package=juicyjuice"><img src="https://cranlogs.r-pkg.org/badges/grand-total/juicyjuice" alt="Total Downloads"></a>
+
 <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Contributor Covenant" /></a>
 <!-- badges: end -->
+<hr style="color:transparent" />
 <br />
 </div>
 
@@ -25,6 +30,25 @@ Will turn to this:
 Why do this? An important use case is HTML email and this is mainly because of Outlook on Windows (it does not support multiple classes on elements). Furthermore CSS inlining can help preserve a decent layout in email clients that do not support embedded CSS (in `<style>` tags), or, when an email is forwarded. Here's another reason to use this: embedding HTML in 3rd-party websites. 
 
 This **R** package contains a single function, `css_inline()`, where the only input required is a string of HTML text. It uses the **juice** JavaScript library (https://github.com/Automattic/juice), which is (1) well-tested, (2) very performant, and (3) has lots of great features. The aformentioned function will return a string of CSS-inlined HTML.
+
+## INSTALLATION
+
+The **juicyjuice** package can be installed from **CRAN** with:
+
+``` r
+install.packages("juicyjuice")
+```
+
+You can also choose to install the development version of **juicyjuice** from
+**GitHub**:
+
+``` r
+devtools::install_github("rich-iannone/juicyjuice")
+```
+
+If you encounter a bug, have usage questions, or want to share ideas to
+make this package better, please feel free to file an
+[issue](https://github.com/rich-iannone/juicyjuice/issues).
 
 ## Code of Conduct
 
