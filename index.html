@@ -18,14 +18,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="Inline CSS Properties into HTML Tags Using juice ">
-<meta property="og:description" content="There are occasions where you need a piece of HTML with inlined
-    styles. A prime example of this is HTML email. By inlining styles you are
-    essentially moving the CSS and associated formatting instructions from the
+<meta property="og:description" content="There are occasions where you need a piece of HTML with integrated
+    styles. A prime example of this is HTML email. This transformation
+    involves moving the CSS and associated formatting instructions from the
     style block in the head of your document into the body of the HTML. Many
-    prominent email clients require inlined styles in HTML email; otherwise a
+    prominent email clients require integrated styles in HTML email; otherwise a
     received HTML email will be displayed without any styling. This package will
-    quickly and precisely perform CSS inlining when given HTML text by making
-    use of the JavaScript juice library.">
+    quickly and precisely perform these CSS transformations when given HTML text
+    and it does so by using the JavaScript juice library.">
 <meta property="og:image" content="/logo.png">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -47,7 +47,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">juicyjuice</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.0</span>
       </span>
     </div>
 
@@ -88,7 +88,7 @@
 <p>Will turn to this:</p>
 <p><code>&lt;div style="color: blue;"&gt;&lt;/div&gt;</code></p>
 <p>Why do this? An important use case is HTML email and this is mainly because of Outlook on Windows (it does not support multiple classes on elements). Furthermore CSS inlining can help preserve a decent layout in email clients that do not support embedded CSS (in <code>&lt;style&gt;</code> tags), or, when an email is forwarded. Here’s another reason to use this: embedding HTML in 3rd-party websites.</p>
-<p>This <strong>R</strong> package contains a single function, <code><a href="reference/css_inline.html">css_inline()</a></code>, where the only input required is a string of HTML text. It uses the <strong>juice</strong> JavaScript library, which is (1) well-tested, (2) very performant, and (3) has lots of great features. The aformentioned function will return a string of CSS-inlined HTML.</p>
+<p>This <strong>R</strong> package contains a single function, <code><a href="reference/css_inline.html">css_inline()</a></code>, where the only input required is a string of HTML text. It uses the <strong>juice</strong> JavaScript library (<a href="https://github.com/Automattic/juice" class="external-link uri">https://github.com/Automattic/juice</a>), which is (1) well-tested, (2) very performant, and (3) has lots of great features. The aformentioned function will return a string of CSS-inlined HTML.</p>
 <div class="section level2">
 <h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
 </h2>
@@ -97,7 +97,7 @@
 <div class="section level2">
 <h2 id="-license">📄 License<a class="anchor" aria-label="anchor" href="#-license"></a>
 </h2>
-<p><strong>juicyjuice</strong> is licensed under the MIT license. See the <a href="LICENSE.html"><code>LICENSE.md</code></a> file for more details.</p>
+<p><strong>juicyjuice</strong> is licensed under the MIT license. See the <code>LICENSE.md</code>](LICENSE.md) file for more details.</p>
 </div>
 <div class="section level2">
 <h2 id="️-governance">🏛️ Governance<a class="anchor" aria-label="anchor" href="#%EF%B8%8F-governance"></a>
@@ -111,6 +111,7 @@
     <div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
+<li><a href="https://cloud.r-project.org/package=juicyjuice" class="external-link">View on CRAN</a></li>
 <li><a href="https://github.com/rich-iannone/juicyjuice/" class="external-link">Browse source code</a></li>
 <li><a href="https://github.com/rich-iannone/juicyjuice/issues" class="external-link">Report a bug</a></li>
 </ul>
@@ -142,7 +143,8 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Richard Iannone <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0003-3925-190X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Richard Iannone <br><small class="roles"> Author, maintainer, copyright holder </small> <a href="https://orcid.org/0000-0003-3925-190X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li><a href="authors.html">More about authors...</a></li>
 </ul>
 </div>
 
