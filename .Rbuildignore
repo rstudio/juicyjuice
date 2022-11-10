@@ -1,10 +1,9 @@
 ^.*\.Rproj$
 ^\.github$
 ^\.Rproj\.user$
-^LICENSE\.md$
-^js_src$
-^node_modules$
 ^package.json$
 ^package-lock.json$
-^.*\.Rproj$
-^\.Rproj\.user$
+^LICENSE\.md$
+^js_src$
+^README\.md$
+^node_modules$

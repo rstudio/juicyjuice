@@ -1,3 +1,8 @@
+The juicyjuice package as a whole is distributed under the MIT License. We also
+include open source software provided by Automattic (juice,
+https://github.com/Automattic/juice) which is also MIT licensed.
+
+
 # MIT License
 
 Copyright (c) 2022 juicyjuice authors
