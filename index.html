@@ -81,9 +81,12 @@
   <div class="contents col-md-9">
 
 <div align="center">
+<hr style="color:transparent">
+<a href="https://rich-iannone.github.io/juicyjuice/" class="external-link"><img src="reference/figures/logo.png" width="350px"></a><hr style="color:transparent">
+<!-- badges: start -->
 
-<p><br><!-- badges: start --><a href="https://github.com/rich-iannone/juicyjuice/actions" class="external-link"><img src="https://github.com/rich-iannone/juicyjuice/workflows/R-CMD-check/badge.svg" alt="R build status"></a> <a href="https://github.com/rich-iannone/juicyjuice/actions" class="external-link"><img src="https://github.com/rich-iannone/juicyjuice/workflows/lint/badge.svg" alt="Linting"></a></p>
-<p><a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/" class="external-link"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Contributor Covenant"></a> <!-- badges: end --> <br></p>
+ <!-- badges: end --><hr style="color:transparent">
+<br>
 </div>
 <p>With the <strong>juicyjuice</strong> package it’s fairly easy to transform HTML such that all CSS is inlined directly into HTML tags.</p>
 <p>So this:</p>
@@ -92,6 +95,17 @@
 <p><code>&lt;div style="color: blue;"&gt;&lt;/div&gt;</code></p>
 <p>Why do this? An important use case is HTML email and this is mainly because of Outlook on Windows (it does not support multiple classes on elements). Furthermore CSS inlining can help preserve a decent layout in email clients that do not support embedded CSS (in <code>&lt;style&gt;</code> tags), or, when an email is forwarded. Here’s another reason to use this: embedding HTML in 3rd-party websites.</p>
 <p>This <strong>R</strong> package contains a single function, <code><a href="reference/css_inline.html">css_inline()</a></code>, where the only input required is a string of HTML text. It uses the <strong>juice</strong> JavaScript library (<a href="https://github.com/Automattic/juice" class="external-link uri">https://github.com/Automattic/juice</a>), which is (1) well-tested, (2) very performant, and (3) has lots of great features. The aformentioned function will return a string of CSS-inlined HTML.</p>
+<div class="section level2">
+<h2 id="installation">INSTALLATION<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
+<p>The <strong>juicyjuice</strong> package can be installed from <strong>CRAN</strong> with:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"juicyjuice"</span><span class="op">)</span></span></code></pre></div>
+<p>You can also choose to install the development version of <strong>juicyjuice</strong> from <strong>GitHub</strong>:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"rich-iannone/juicyjuice"</span><span class="op">)</span></span></code></pre></div>
+<p>If you encounter a bug, have usage questions, or want to share ideas to make this package better, please feel free to file an <a href="https://github.com/rich-iannone/juicyjuice/issues" class="external-link">issue</a>.</p>
+</div>
 <div class="section level2">
 <h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
 </h2>
@@ -154,7 +168,11 @@
 <div class="dev-status">
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://rich-iannone.github.io/juicyjuice/" class="external-link"><img src="reference/figures/logo.png" height="350px"></a></li>
+<li><a href="https://cran.r-project.org/package=juicyjuice" class="external-link"><img src="https://www.r-pkg.org/badges/version/juicyjuice" alt="CRAN status"></a></li>
+<li><a href="https://github.com/rich-iannone/juicyjuice/actions" class="external-link"><img src="https://github.com/rich-iannone/juicyjuice/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
+<li><a href="https://github.com/rich-iannone/juicyjuice/actions" class="external-link"><img src="https://github.com/rich-iannone/juicyjuice/workflows/lint/badge.svg" alt="Linting"></a></li>
+<li><a href="https://CRAN.R-project.org/package=juicyjuice" class="external-link"><img src="https://cranlogs.r-pkg.org/badges/juicyjuice" alt="Monthly Downloads"></a></li>
+<li><a href="https://CRAN.R-project.org/package=juicyjuice" class="external-link"><img src="https://cranlogs.r-pkg.org/badges/grand-total/juicyjuice" alt="Total Downloads"></a></li>
 </ul>
 </div>
 
