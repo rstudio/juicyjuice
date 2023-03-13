@@ -5,7 +5,7 @@ https://github.com/Automattic/juice) which is also MIT licensed.
 
 # MIT License
 
-Copyright (c) 2022 juicyjuice authors
+Copyright (c) 2022-2023 juicyjuice authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
