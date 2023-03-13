@@ -2,10 +2,11 @@ Package: juicyjuice
 Title: Inline CSS Properties into HTML Tags Using 'juice' 
 Version: 0.1.0.9000
 Authors@R: c(
-    person("Richard", "Iannone", , "riannone@me.com", c("aut", "cre", "cph"),
+    person("Richard", "Iannone", , "rich@posit.co", c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0003-3925-190X")),
     person("Automattic", role = c("cph"), comment = "juice library"),
-    person("juice contributors", role = c("ctb"), comment = "juice library")
+    person("juice contributors", role = c("ctb"), comment = "juice library"),
+    person("Posit, PBC", role = c("cph", "fnd"))
     )
 Description: There are occasions where you need a piece of HTML with integrated
     styles. A prime example of this is HTML email. This transformation
@@ -20,7 +21,7 @@ URL: https://github.com/rich-iannone/juicyjuice
 BugReports: https://github.com/rich-iannone/juicyjuice/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Imports:
     V8 (>= 4.2.0)
 Suggests: 
