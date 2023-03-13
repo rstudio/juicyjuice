@@ -11,7 +11,7 @@
 <a href="https://CRAN.R-project.org/package=juicyjuice"><img src="https://cranlogs.r-pkg.org/badges/juicyjuice" alt="Monthly Downloads"></a>
 <a href="https://CRAN.R-project.org/package=juicyjuice"><img src="https://cranlogs.r-pkg.org/badges/grand-total/juicyjuice" alt="Total Downloads"></a>
 
-<a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Contributor Covenant" /></a>
+<a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct.html"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.1%20adopted-ff69b4.svg" alt="Contributor Covenant" /></a>
 <!-- badges: end -->
 <hr style="color:transparent" />
 <br />
@@ -52,7 +52,7 @@ make this package better, please feel free to file an
 
 ## Code of Conduct
 
-Please note that the juicyjuice project is released with a [contributor code of conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>By participating in this project you agree to abide by its terms.
+Please note that the juicyjuice project is released with a [contributor code of conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).<br>By participating in this project you agree to abide by its terms.
 
 ## 📄 License
 
