@@ -9,5 +9,5 @@ Thank you for contributing to **juicyjuice**! To make this process easier for ev
 # Checklist
 
 - [ ] I understand and agree to the [Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
-- [ ] I have listed any major changes in the [NEWS](https://github.com/rich-iannone/juicyjuice/blob/main/NEWS.md).
-- [ ] I have added [`testthat`](https://github.com/r-lib/testthat) unit tests to [`tests/testthat`](https://github.com/rich-iannone/juicyjuice/tree/main/tests/testthat) for any new functionality.
+- [ ] I have listed any major changes in the [NEWS](https://github.com/rstudio/juicyjuice/blob/main/NEWS.md).
+- [ ] I have added [`testthat`](https://github.com/r-lib/testthat) unit tests to [`tests/testthat`](https://github.com/rstudio/juicyjuice/tree/main/tests/testthat) for any new functionality.
