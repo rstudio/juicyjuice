@@ -4,7 +4,7 @@ name: lint
 
 jobs:
   lint:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     
     env:
       GITHUB_PAT: ${{ secrets.GHA_PAT }}
