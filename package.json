@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rich-iannone/juicyjuice.git"
+    "url": "git+https://github.com/rstudio/juicyjuice.git"
   },
   "keywords": [
     "html",
@@ -18,9 +18,9 @@
   "author": "Richard Iannone",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rich-iannone/juicyjuice/issues"
+    "url": "https://github.com/rstudio/juicyjuice/issues"
   },
-  "homepage": "https://github.com/rich-iannone/juicyjuice#readme",
+  "homepage": "https://github.com/rstudio/juicyjuice#readme",
   "devDependencies": {
     "browserify": "^17.0.0",
     "cheerio": "^1.0.0-rc.12",
