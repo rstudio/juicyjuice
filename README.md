@@ -56,7 +56,7 @@ Please note that the juicyjuice project is released with a [contributor code of 
 
 ## 📄 License
 
-**juicyjuice** is licensed under the MIT license. See the `LICENSE.md`](LICENSE.md) file for more details.
+**juicyjuice** is licensed under the MIT license. See the [`LICENSE.md`](LICENSE.md) file for more details.
 
 © Posit Software, PBC.
 
