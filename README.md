@@ -1,12 +1,12 @@
 <div align="center">
 
 <hr style="color:transparent" />
-<a href='https://rich-iannone.github.io/juicyjuice/'><img src="man/figures/logo.png" width="350px"/></a>
+<a href='https://rstudio.github.io/juicyjuice/'><img src="man/figures/logo.png" width="350px"/></a>
 <hr style="color:transparent"/>
 <!-- badges: start -->
 <a href="https://cran.r-project.org/package=juicyjuice"><img src="https://www.r-pkg.org/badges/version/juicyjuice" alt="CRAN status" /></a>
-<a href="https://github.com/rich-iannone/juicyjuice/actions"><img src="https://github.com/rich-iannone/juicyjuice/workflows/R-CMD-check/badge.svg" alt="R build status" /></a>
-<a href="https://github.com/rich-iannone/juicyjuice/actions"><img src="https://github.com/rich-iannone/juicyjuice/workflows/lint/badge.svg" alt="Linting" /></a>
+<a href="https://github.com/rstudio/juicyjuice/actions"><img src="https://github.com/rstudio/juicyjuice/workflows/R-CMD-check/badge.svg" alt="R build status" /></a>
+<a href="https://github.com/rstudio/juicyjuice/actions"><img src="https://github.com/rstudio/juicyjuice/workflows/lint/badge.svg" alt="Linting" /></a>
 
 <a href="https://CRAN.R-project.org/package=juicyjuice"><img src="https://cranlogs.r-pkg.org/badges/juicyjuice" alt="Monthly Downloads"></a>
 <a href="https://CRAN.R-project.org/package=juicyjuice"><img src="https://cranlogs.r-pkg.org/badges/grand-total/juicyjuice" alt="Total Downloads"></a>
@@ -43,12 +43,12 @@ You can also choose to install the development version of **juicyjuice** from
 **GitHub**:
 
 ``` r
-devtools::install_github("rich-iannone/juicyjuice")
+devtools::install_github("rstudio/juicyjuice")
 ```
 
 If you encounter a bug, have usage questions, or want to share ideas to
 make this package better, please feel free to file an
-[issue](https://github.com/rich-iannone/juicyjuice/issues).
+[issue](https://github.com/rstudio/juicyjuice/issues).
 
 ## Code of Conduct
 
