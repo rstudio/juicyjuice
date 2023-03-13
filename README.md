@@ -58,6 +58,8 @@ Please note that the juicyjuice project is released with a [contributor code of 
 
 **juicyjuice** is licensed under the MIT license. See the `LICENSE.md`](LICENSE.md) file for more details.
 
+© Posit Software, PBC.
+
 ## 🏛️ Governance
 
 This project is primarily maintained by [Rich Iannone](https://twitter.com/riannone). Should there also be other authors, they might occasionally assist with some of these duties.
