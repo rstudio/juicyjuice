@@ -17,7 +17,7 @@ Description: There are occasions where you need a piece of HTML with integrated
     quickly and precisely perform these CSS transformations when given HTML text
     and it does so by using the JavaScript 'juice' library.
 License: MIT + file LICENSE
-URL: https://github.com/rstudio/juicyjuice
+URL: https://rstudio.github.io/juicyjuice/, https://github.com/rstudio/juicyjuice
 BugReports: https://github.com/rstudio/juicyjuice/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
